@@ -1,0 +1,34 @@
+{
+    "uranisgt.com": {
+        "siteId": "WTBKqKuNvbRkyLrfdDxNgnEhdTXSyZcd",
+        "siteSecret": "4UGKV3ls2fFZY6vsiwtDOEDNVyO77qfyPHIW2TyQmlpfcAzdw3sXPvaJI5GivAOC",
+        "blogId": 1,
+        "compression": true,
+        "webhookToken": "c2e440199606c318bcaa7a9e427a82bd",
+        "home_url": "https:\/\/uranisgt.com",
+        "admin_url": "https:\/\/uranisgt.com\/wp-admin\/",
+        "hosting": "unknown",
+        "alwaysBuffer": true,
+        "isEzoicActive": false,
+        "isApoActive": false,
+        "isNginxHelperActive": false,
+        "isLateIntegrationInitRequired": false,
+        "isDlmActive": false,
+        "isWoocommerceCacheHandlerActive": false,
+        "isWoocommerceActive": false,
+        "isAeliaCurrencySwitcherActive": false,
+        "isGeoTargetingWPActive": false,
+        "dlm_downloading_url": null,
+        "dlm_download_endpoint": null,
+        "pluginVersion": "1.13.0",
+        "options_cache": {
+            "cache_handler_cache_handler": false,
+            "woocommerce_default_customer_address": false,
+            "wc_aelia_currency_switcher": {
+                "ipgeolocation_enabled": null
+            }
+        },
+        "additional_domains": []
+    },
+    "config_path": "6639ad23b925e77eaf0d7815d4531945"
+}

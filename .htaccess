@@ -1,0 +1,47 @@
+
+
+
+# BEGIN NITROPACK
+
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+
+RewriteRule .* - [E=NitroPackHtaccessVersion:1.13.0]
+RewriteRule .* - [E=Cache-Control:vary=nitrodesktop]
+
+RewriteCond %{HTTP_USER_AGENT} Android|iPad|RIM\ Tablet|hp-tablet|Kindle\ Fire [NC]
+RewriteRule .* - [E=Cache-Control:vary=nitrotablet]
+
+RewriteCond %{HTTP_USER_AGENT} iPod|iPhone|MobileSafari|webOS|BlackBerry|windows\ phone|symbian|vodafone|opera\ mini|windows\ ce|smartphone|palm|midp [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Android.*Mobile [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} Mobile.*Android [NC]
+RewriteRule .* - [E=Cache-Control:vary=nitromobile]
+
+RewriteCond %{HTTP_COOKIE} ((^|\;\s*)wordpress_logged_in|(^|\;\s*)comment_author|(^|\;\s*)wp-postpass_|(^|\;\s*)woocommerce_items_in_cart=|(^|\;\s*)wordpress_logged_in_c3aac52fe36599c707fe36ea99dbe29e=)
+RewriteRule .* - [E=Cache-Control:no-cache]
+
+CacheKeyModify -qs:
+
+</IfModule>
+
+# END NITROPACK
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+# This file was updated by Duplicator on 2024-01-08 11:28:37.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

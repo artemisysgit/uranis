@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div::after,
+ul::after {
+  display: block;
+  clear: both;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  color: #666;
+}
+
+body {
+  font-family: "PT Sans Caption", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #212121;
+}
+
+.serv-sec {
+  margin-bottom: 50px;
+}
+
+.serv-sec p:last-child {
+  margin-bottom: 0;
+}
+
+.serv-sec h3 {
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.serv-sec ul,
+ol {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.serv-sec ul li {
+  position: relative;
+  padding-left: 30px;
+  margin: 7px 0;
+}
+
+.serv-sec ol li {
+  margin: 5px 0 5px 45px;
+  list-style-type: decimal;
+}
+
+.serv-sec ul li::before {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  z-index: 1;
+  top: 5px;
+  left: 0;
+  content: "";
+  background: url(./worldclass.svg) no-repeat center;
+  background-size: cover !important;
+}
+
+.serv-sec5 ul,
+.serv-sec7 ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.serv-sec5 ul li,
+.serv-sec7 ul li {
+  width: 50%;
+}
+
+.serv-sec6 ul li {
+  font-size: 17px;
+}
+
+.apply-box {
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.apply-box::before {
+  position: absolute;
+  bottom: -35px;
+  background: #9d9d9d;
+  width: 90%;
+  height: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  z-index: 1;
+}
+
+.apply-box-details {
+  position: relative;
+  text-align: center;
+  padding: 25px 50px;
+  z-index: 9;
+  background: transparent;
+  color: #fff;
+}
+
+.apply-box-details a {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff !important;
+  transition: all 0.3s ease-in-out;
+  text-transform: capitalize;
+}
+
+.apply-box-details a:hover {
+  background-color: #fff;
+  color: #3579f4;
+  transition: all 0.3s ease-in-out;
+}
+
+.apply-box-details::before {
+  position: absolute;
+  background-color: #3579f4;
+  width: 100%;
+  height: 100%;
+  content: "";
+  left: 0;
+  top: 0;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/* .serv-small {
+  position: sticky;
+  top: 0;
+} */
+
+.serv-small-img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.serv-small-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.serv-small-form {
+  border-radius: 20px;
+  background-color: #3579f4;
+  padding: 20px;
+  color: #fff;
+}
+
+.serv-small-form h3 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.serv-small-form input {
+  font-size: 15px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  text-indent: 15px;
+  outline: none;
+  padding: 0;
+}
+
+.serv-small-form textarea {
+  font-size: 15px;
+  line-height: 30px;
+  height: 100px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  text-indent: 15px;
+  outline: none;
+  resize: none;
+  padding: 0;
+}
+
+.serv-small-form button {
+  background-color: #17a8e3;
+  color: #ffffff;
+  border: solid 1px #17a8e3;
+  padding: 10px 35px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.serv-small-form button:hover {
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.serv-small-form input::placeholder,
+ textarea::placeholder {
+  color: #ffffff9c !important;
+}
+
+.serv-sec9 .addi{
+  color: #fff !important;
+}
+
+.serv-small-form h3{
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .serv-sec5 ul li,
+  .serv-sec7 ul li {
+    width: 100%;
+  }
+  .serv-sec h3 {
+    font-size: 20px;
+  }
+  .serv-sec ul li::before {
+    width: 16px;
+    height: 16px;
+  }
+  .serv-sec ul li {
+    padding-left: 25px;
+  }
+  .serv-sec {
+    margin-bottom: 40px;
+  }
+  .apply-box-details {
+    padding: 25px;
+  }
+  .serv-small {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .serv-sec ol li {
+    margin: 5px 0 5px 25px;
+  }
+}
+
+.serv-title {
+  margin: 53px 0 0 220px;
+  ]}
+
+
+.serv-sec9 .h3-faq{
+  color: #000 !important;
+}

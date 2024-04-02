@@ -1,0 +1,21 @@
+"Term ID","Term Name","Term Slug",Description,"Parent ID","Parent Name","Parent Slug",Count
+1,Uncategorized,uncategorized,,,,,
+9,"Surveillance System",surveillance-system,,,,,8
+10,"Security System",security-system,,,,,5
+11,"Networking System",networking-system,,,,,4
+12,"Data Storage System",data-storage-system,,,,,3
+13,"Data Center",data-center,,,,,6
+14,Computers/Servers,computers-servers,,,,,3
+15,Laptops,laptops,,,,,4
+16,"Printers and Photo Copiers",printers-photo-copiers,,,,,4
+17,"Mobiles Phones",mobiles-phones,,,,,3
+18,"Fire Fighting System",fire-fighting-system,,,,,7
+19,"Electronic Products",electronic-products,,,,,5
+20,"IT Accessories",it-accessories,,,,,6
+21,"Automobiles EV/Hybrid",automobiles-ev-hybrid,,,,,3
+22,"POS Solutions",pos-solutions,,,,,2
+23,Softwares,softwares,,,,,4
+24,Generators,generators,,,,,2
+25,"Hotel Amenities",hotel-amenities,,,,,5
+91,"Interactive Pen Displays",interactive-pen-displays,,,,,4
+93,"Electronic Archiving System",electronic-archiving-system,,,,,4

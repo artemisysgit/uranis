@@ -1,0 +1,40 @@
+[01:56:30] <strong>Record</strong> #1
+[01:56:30] taxonomy #97 Successfully Imported
+[01:56:30] <strong>Record</strong> #2
+[01:56:30] taxonomy #98 Successfully Imported
+[01:56:30] <strong>Record</strong> #3
+[01:56:30] taxonomy #99 Successfully Imported
+[01:56:30] <strong>Record</strong> #4
+[01:56:30] taxonomy #100 Successfully Imported
+[01:56:30] <strong>Record</strong> #5
+[01:56:30] taxonomy #101 Successfully Imported
+[01:56:30] <strong>Record</strong> #6
+[01:56:30] taxonomy #102 Successfully Imported
+[01:56:30] <strong>Record</strong> #7
+[01:56:30] taxonomy #103 Successfully Imported
+[01:56:30] <strong>Record</strong> #8
+[01:56:30] taxonomy #104 Successfully Imported
+[01:56:30] <strong>Record</strong> #9
+[01:56:30] taxonomy #105 Successfully Imported
+[01:56:30] <strong>Record</strong> #10
+[01:56:30] taxonomy #106 Successfully Imported
+[01:56:30] <strong>Record</strong> #11
+[01:56:30] taxonomy #107 Successfully Imported
+[01:56:30] <strong>Record</strong> #12
+[01:56:30] taxonomy #108 Successfully Imported
+[01:56:30] <strong>Record</strong> #13
+[01:56:30] taxonomy #109 Successfully Imported
+[01:56:30] <strong>Record</strong> #14
+[01:56:30] taxonomy #110 Successfully Imported
+[01:56:30] <strong>Record</strong> #15
+[01:56:30] taxonomy #111 Successfully Imported
+[01:56:30] <strong>Record</strong> #16
+[01:56:30] taxonomy #112 Successfully Imported
+[01:56:30] <strong>Record</strong> #17
+[01:56:30] taxonomy #113 Successfully Imported
+[01:56:30] <strong>Record</strong> #18
+[01:56:30] taxonomy #114 Successfully Imported
+[01:56:30] <strong>Record</strong> #19
+[01:56:30] taxonomy #115 Successfully Imported
+[01:56:30] <strong>Record</strong> #20
+[01:56:30] taxonomy #116 Successfully Imported
